@@ -64,5 +64,145 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-SendBridge is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://sendbridge.com
+SendBridge provides an email verification service that helps businesses ensure high deliverability by validating email addresses in real time. Their API offers a simple GET endpoint that returns JSON indicating whether an address is valid, disposable, or risky, enabling marketers and developers to clean mailing lists, reduce bounce rates, and improve inbox placement. The platform emphasizes fast responses, easy integration, and detailed validation results, supporting use cases such as sign‑up forms, CRM data hygiene, and campaign targeting.
+
+**Areas:** email · verification · api · deliverability · validation · marketing · service
+
+## SendBridge on APIs.io
+
+Everything profiled for SendBridge is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sendbridge-com/](https://apis.io/providers/sendbridge-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [SendBridge Account API](https://apis.io/apis/sendbridge-com/sendbridge-com-account-api/) — Inspect the current API key. Free — does not charge credits.
+- [SendBridge DMARC API](https://apis.io/apis/sendbridge-com/sendbridge-com-dmarc-api/) — Read monitored domains, 7-day DMARC stats, and recent aggregate reports. Live calls are free. Test keys return fixtures.
+- [SendBridge Mail Tester API](https://apis.io/apis/sendbridge-com/sendbridge-com-mail-tester-api/) — Generate a unique inbox, send a message to it, then poll the deliverability report. Live calls charge 200 credits. Test keys return a completed demo report…
+- [SendBridge Validation API](https://apis.io/apis/sendbridge-com/sendbridge-com-validation-api/) — Verify a single email address. Charges 1 credit on live keys. Test keys return fixtures and are free.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Sendbridge Com Agentic Access](https://apis.io/agentic-access/sendbridge-com/sendbridge-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateMailTestRequest](https://apis.io/schemas/sendbridge-com/sendbridge-com-create-mail-test-request/)
+- [MailTestAddress](https://apis.io/schemas/sendbridge-com/sendbridge-com-mail-test-address/)
+- [MailTestResult](https://apis.io/schemas/sendbridge-com/sendbridge-com-mail-test-result/)
+- [Me](https://apis.io/schemas/sendbridge-com/sendbridge-com-me/)
+- [Meta](https://apis.io/schemas/sendbridge-com/sendbridge-com-meta/)
+- [VerificationResult](https://apis.io/schemas/sendbridge-com/sendbridge-com-verification-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sendbridge Com Context](https://apis.io/jsonld/sendbridge-com/sendbridge-com-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Sendbridge Com Openapi Overlay](https://apis.io/overlays/sendbridge-com/sendbridge-com-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SendBridge API Rules](https://apis.io/rules/sendbridge-com/sendbridge-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sendbridge Com Authentication](https://apis.io/security/sendbridge-com/sendbridge-com-authentication/)
+- [Sendbridge Com Domain Security](https://apis.io/security/sendbridge-com/sendbridge-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sendbridge Com Plans Pricing](https://apis.io/plans/sendbridge-com/sendbridge-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Sendbridge Com Rate Limits](https://apis.io/rate-limits/sendbridge-com/sendbridge-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sendbridge.com)
+- [Documentation](https://sendbridge.com/email-verification-api)
+- [API reference](https://api.sendbridge.com/#tag/validation)
+- [Pricing](https://sendbridge.com/pricing)
+- [Sign up](https://app.sendbridge.com/signup)
+- [Support](https://sendbridge.com/support)
+- [Blog](https://sendbridge.com/blog)
+- [Terms of service](https://sendbridge.com/tos)
+- [Privacy policy](https://sendbridge.com/privacy-policy)
+- [GitHub](https://github.com/sendbridge)
+
+## API Evangelist rating
+
+**Kin Score 58.7** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 60.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 24.2 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 73.2 |
+
+**Agent readiness 44.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sendbridge-com/](https://apis.io/providers/sendbridge-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SendBridge: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sendbridge-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
